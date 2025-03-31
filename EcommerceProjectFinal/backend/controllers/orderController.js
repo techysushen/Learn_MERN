@@ -2,7 +2,7 @@ import asyncHandler from 'express-async-handler'
 import Order from '../models/orderModel.js'
 
 
-///api/orders test git files
+///api/orders
 
 const addOrderItems = asyncHandler(async (req,res) => {
    const {
